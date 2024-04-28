@@ -1904,11 +1904,6 @@ video {
   background-color: rgb(247 247 247 / var(--tw-bg-opacity));
 }
 
-.bg-darkpurple {
-  --tw-bg-opacity: 1;
-  background-color: rgb(120 117 254 / var(--tw-bg-opacity));
-}
-
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2029,6 +2024,11 @@ video {
   padding-right: 90px;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -2042,16 +2042,6 @@ video {
 .py-\[90px\] {
   padding-top: 90px;
   padding-bottom: 90px;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
-.py-\[3px\] {
-  padding-top: 3px;
-  padding-bottom: 3px;
 }
 
 .pt-\[19px\] {
@@ -2132,6 +2122,10 @@ video {
   line-height: 1;
 }
 
+.text-\[13px\] {
+  font-size: 13px;
+}
+
 .text-\[14px\] {
   font-size: 14px;
 }
@@ -2152,10 +2146,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[13px\] {
-  font-size: 13px;
 }
 
 .font-bold {
@@ -2264,6 +2254,11 @@ video {
   color: rgb(76 88 102 / var(--tw-text-opacity));
 }
 
+.text-darkblue {
+  --tw-text-opacity: 1;
+  color: rgb(76 88 102 / var(--tw-text-opacity));
+}
+
 .text-darkpurple {
   --tw-text-opacity: 1;
   color: rgb(120 117 254 / var(--tw-text-opacity));
@@ -2287,16 +2282,6 @@ video {
 .text-silver {
   --tw-text-opacity: 1;
   color: rgb(181 181 189 / var(--tw-text-opacity));
-}
-
-.text-darkblue {
-  --tw-text-opacity: 1;
-  color: rgb(76 88 102 / var(--tw-text-opacity));
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2711,10 +2696,6 @@ video {
   }
 }
 
-.hover\:border:hover {
-  border-width: 1px;
-}
-
 .hover\:border-\[1px\]:hover {
   border-width: 1px;
 }
@@ -2733,24 +2714,14 @@ video {
   font-weight: 700;
 }
 
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .hover\:text-lightpurple:hover {
   --tw-text-opacity: 1;
   color: rgb(133 133 155 / var(--tw-text-opacity));
 }
 
-.hover\:text-bluegray:hover {
+.hover\:text-white:hover {
   --tw-text-opacity: 1;
-  color: rgb(76 88 102 / var(--tw-text-opacity));
-}
-
-.hover\:brightness-110:hover {
-  --tw-brightness: brightness(1.1);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:brightness-150:hover {
@@ -2758,14 +2729,18 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.hover\:filter:hover {
+.hover\:brightness-90:hover {
+  --tw-brightness: brightness(.9);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.hover\:backdrop-brightness-110:hover {
-  --tw-backdrop-brightness: brightness(1.1);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+.hover\:brightness-75:hover {
+  --tw-brightness: brightness(.75);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hover\:filter:hover {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .before\:hover\:text-center:hover::before {
